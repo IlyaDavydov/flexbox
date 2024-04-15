@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.section-one .header {
+    height: 10%;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.section-one .context {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.section-one .context .left {
+    width: 50%;
+}
+
+.section-one .context .right {
+    background-color: darkgray;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one .header .links {
+    display: flex;
+    margin-left: auto;
+    color:  #E5E7EB;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.section-one .context .left p {
+    color:  #E5E7EB;
+    font-size: 18px;
+}
+
+.section-one .context .left h1 {
+    font-size: 48px;
+    font-weight: 1800;
+    color:  #F9FAF8;
+}
+
+.section-one .header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-one button {
+    background-color: lightskyblue;
+    color: white;
+    height: 10%;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.section-one .context .right {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
