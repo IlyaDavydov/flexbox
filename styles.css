@@ -32,6 +32,9 @@ body {
 
 .section-one .context .left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .section-one .context .right {
@@ -58,7 +61,7 @@ body {
 }
 
 .section-one .context .left h1 {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 1800;
     color:  #F9FAF8;
 }
@@ -73,7 +76,6 @@ body {
     color: white;
     height: 15%;
     width: 25%;
-    margin: auto;
     font-size: 24px;
     font-weight: 900;
     border-radius: 10px;
@@ -166,4 +168,62 @@ body {
 .section-third .content .quote .signature{
     margin-right: 50px;
     font-size: 18px;
+}
+
+.section-fourth {
+    height: 300px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-fourth .content {
+    background-color: #3882F6;
+    height: 50%;
+    width: 75%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.section-fourth .content .text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8%;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.section-fourth .content .text .t1 {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.section-fourth .content .text .t2 {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+
+.section-fourth .content button {
+    margin: auto;
+    height: 40px;
+    width: 130px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px white;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
